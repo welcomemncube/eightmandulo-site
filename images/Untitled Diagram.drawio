@@ -1,23 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T15:04:04.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="VR2FbpFznh-Popxwbi7C" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T15:28:21.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LbTKczpksjLeEYj4CgBh" version="21.3.3" type="github">
   <diagram name="Page-1" id="8wmuvuhrfv7lfPoiPv7g">
-    <mxGraphModel dx="794" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DMo1HWd3JLxvGwKNVJmz-4" value="&lt;b&gt;Bastion Host&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="340" y="20" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="DMo1HWd3JLxvGwKNVJmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DMo1HWd3JLxvGwKNVJmz-4" target="DMo1HWd3JLxvGwKNVJmz-4">
+        <mxCell id="xBeOlr_htragq48yNHHG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DMo1HWd3JLxvGwKNVJmz-4" target="DMo1HWd3JLxvGwKNVJmz-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DMo1HWd3JLxvGwKNVJmz-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Master/Worker&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OS: RHCOS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Memory:32GB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Storage: 100GB&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="220" y="220" width="90" height="90" as="geometry" />
+        <mxCell id="DMo1HWd3JLxvGwKNVJmz-4" value="Bastion Host&lt;br&gt;OS: RHEL&lt;br&gt;Memory: 32 GB&lt;br&gt;Storage: 100GB" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+          <mxGeometry x="335" y="20" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="DMo1HWd3JLxvGwKNVJmz-12" value="Install Discovery iso&lt;br&gt;via ILO 4 Remote Console" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="130" width="160" height="40" as="geometry" />
+        <mxCell id="DMo1HWd3JLxvGwKNVJmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DMo1HWd3JLxvGwKNVJmz-4" target="DMo1HWd3JLxvGwKNVJmz-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DMo1HWd3JLxvGwKNVJmz-18" value="Red Hat Enterprise Linux CoreOS(RHCOS) --&amp;gt;&amp;nbsp;operating system for OpenShift &lt;br&gt;Container Platform control plane, or master, machines&lt;span style=&quot;color: rgb(189, 193, 198); font-family: &amp;quot;Google Sans&amp;quot;, arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(32, 33, 36);&quot;&gt;.&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="20" width="440" height="50" as="geometry" />
+        <mxCell id="xBeOlr_htragq48yNHHG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DMo1HWd3JLxvGwKNVJmz-6" target="xBeOlr_htragq48yNHHG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DMo1HWd3JLxvGwKNVJmz-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Master/Worker&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OS: RHCOS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Memory:32GB&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="210" y="250" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DMo1HWd3JLxvGwKNVJmz-12" target="xBeOlr_htragq48yNHHG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DMo1HWd3JLxvGwKNVJmz-12" target="xBeOlr_htragq48yNHHG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DMo1HWd3JLxvGwKNVJmz-12" target="DMo1HWd3JLxvGwKNVJmz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DMo1HWd3JLxvGwKNVJmz-12" value="Boot servers with discovery.iso" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="150" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xBeOlr_htragq48yNHHG-1" target="xBeOlr_htragq48yNHHG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Master/Worker&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OS: RHCOS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Memory:32GB&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="335" y="250" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xBeOlr_htragq48yNHHG-2" target="xBeOlr_htragq48yNHHG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Master/Worker&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OS: RHCOS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Memory:32GB&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-11" value="PX disk-0&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="225" y="370" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-13" value="PX disk-1&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xBeOlr_htragq48yNHHG-14" value="PX disk-2&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="475" y="370" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
